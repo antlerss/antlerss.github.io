@@ -118,14 +118,14 @@ live2d:
   mobile:
     show: false  #是否在手机进行显示
 
-# # Github仓库上传地址
-# deploy:
-#   type: git
-#   repo: git@github.com:antlers12/antlers12.github.io.git
-#   branch: master
-
-# VPS服务器
+# Github仓库上传地址
 deploy:
   type: git
-  repo: git@47.100.59.121:/www/repo/blog.git
-  branch: master  
+  repo: git@github.com:antlers12/antlers12.github.io.git
+  branch: master
+
+# # VPS服务器
+# deploy:
+#   type: git
+#   repo: git@47.100.59.121:/www/repo/blog.git
+#   branch: master  
